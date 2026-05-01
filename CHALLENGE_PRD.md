@@ -27,7 +27,7 @@ O sistema simula um e-commerce com:
 - Durante o processamento, o status do pedido deve evoluir em etapas: Recebido -> Em Processamento -> Concluído ou Falhou. O status Falhou pode ser usado para simular uma falha no processamento do pedido, permitindo testar mecanismos como retry ou circuit breaker.
 - Persistência de pedidos e produtos em banco de dados (SQL Server ou Postgres)
 
-### Frontend (Angular 13+)
+### Frontend (React)
 
 - Tela para listar produtos disponíveis (chamada à API)
 - Tela para criar pedido selecionando produto(s) e quantidade(s)
